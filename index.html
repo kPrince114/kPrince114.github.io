@@ -20,26 +20,29 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar" id="nav-menu">
 
-            <a href="#" class="nav-brand"> Prince Kumar</a>
+            <a href="#" class="nav-brand" id="home"> Prince Kumar</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About </a>
+                    <a href="#about" class="nav-link about">About </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skill" class="nav-link">Skills</a>
+                    <a href="#skill" class="nav-link skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link contact">Contact</a>
                 </li>
-                <button onclick="goresume()" class="button-resume"><a href="resume.pdf" download>Resume</a></button>
+                <!-- <li class="nav-item">
+                    <a target="_blank" id="resume-link-1" href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing" class="nav-link" download>GORESUME</a>
+                </li> -->
+                 <button id="resume-button-1"><a id="resume-link-1" target="_blank" href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing" >GORESUME</a></button> 
                 <!-- <a href="resume.pdf" download class="btn btn2">Download profile</a> -->
             </ul>
             <div class="hamburger">
@@ -55,10 +58,15 @@
 
     <div class="bg-container">
         <div class="col-12 details-section">
-            <h1 class="para1"> Hello</h1>
+            <h1 class="para1"> Hello Wrold</h1>
             <h1 class="para2"> Prince <span class="in-span"> Kumar</span></h1>
             <h1 class="para1"> I'm a Backend Developer</h1>
+            <button id="resume-button-2">
+                <a id="resume-link-2" href="resume.pdf" download>Resume <i  class="fa-solid fa-download"></i></a>
+            </button>
+           
         </div>
+        
     </div>
 
 
@@ -66,19 +74,19 @@
     <!----------------------------------------about--------------------------------------------->
 
 
-    <div id="about" style="background-color:black; color: white;">
+    <div id="about" class="about section" style="background-color:black; color: white;">
 
         <div class="row">
 
 
-            <div class="about-col-1">
+            <div class="home-img">
                 <img src="./prince.jpg" alt="">
             </div>
 
 
             <div class="about-col-2">
                 <h1 style="color: white; font-size: 30px;" class="sub-title">About Me</h1>
-                <p class="description" style="color:white">Hey there, I’m Prince Kumar, a Full stack web Developer.
+                <p id="user-detail-intro" class="description" style="color:white">Hey there, I’m Prince Kumar, a Full stack web Developer.
                     Recently completed intermediate in 2021. Currently I enrolled in Full Stack Web Development
                     Program At Masai School. I’m Hard Working , Problem Solving , Eager to Learn
                     new things kind off guy. I have been always curious about how software helping to make human life
@@ -152,96 +160,96 @@
 
 
 
-            <div class="box">
+            <div class="skills-card">
 
-                <img src="https://arjun-porfolio.vercel.app/assets/images/flaticon/html-5.png" alt="">
+                <img  class="skills-card-img" src="https://arjun-porfolio.vercel.app/assets/images/flaticon/html-5.png" alt="">
 
                 <div class="text"> <!------------352--------------->
-                    <p style="color: gray">HTML</p>
+                    <p class="skills-card-name" style="color: gray">HTML</p>
                 </div>
 
             </div>
 
-            <div class="box">
+            <div class="skills-card">
 
-                <img src="https://arjun-porfolio.vercel.app/assets/images/flaticon/css-3.png" alt="">
+                <img  class="skills-card-img" src="https://arjun-porfolio.vercel.app/assets/images/flaticon/css-3.png" alt="">
 
                 <div class="text">
-                    <p style="color: gray">CSS</p>
+                    <p class="skills-card-name" style="color: gray">CSS</p>
                 </div>
 
             </div>
 
 
-            <div class="box">
+            <div class="skills-card">
 
-                <img src="https://arjun-porfolio.vercel.app/assets/images/flaticon/js.png" alt="">
+                <img  class="skills-card-img" src="https://arjun-porfolio.vercel.app/assets/images/flaticon/js.png" alt="">
 
                 <div class="text">
-                    <p style="color: gray">Java Script</p>
+                    <p class="skills-card-name" style="color: gray">Java Script</p>
                 </div>
 
             </div>
 
 
 
-            <div class="box">
+            <div class="skills-card">
 
-                <img src="https://th.bing.com/th/id/OIP.VZYJGn2VK2FBE0t2tLvvrwHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                <img  class="skills-card-img" src="https://th.bing.com/th/id/OIP.VZYJGn2VK2FBE0t2tLvvrwHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                     alt="">
 
                 <div class="text">
-                    <p style="color: gray">Java</p>
+                    <p class="skills-card-name" style="color: gray">Java</p>
                 </div>
 
             </div>
 
 
 
-            <div class="box">
+            <div class="skills-card">
 
-                <img src="https://th.bing.com/th/id/OIP.YCdY8pRfjdOIUcBvccLpCgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                <img  class="skills-card-img" src="https://th.bing.com/th/id/OIP.YCdY8pRfjdOIUcBvccLpCgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                     alt="">
 
                 <div class="text">
-                    <p style="color: gray">Hibernate</p>
+                    <p class="skills-card-name" style="color: gray">Hibernate</p>
                 </div>
 
             </div>
 
 
-            <div class="box">
+            <div class="skills-card">
 
-                <img src="https://th.bing.com/th/id/OIP.s3twEa94SdRplbZY7lUWsgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                <img  class="skills-card-img" src="https://th.bing.com/th/id/OIP.s3twEa94SdRplbZY7lUWsgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                     alt="">
 
                 <div class="text">
-                    <p style="color: gray">Spring Boot</p>
+                    <p class="skills-card-name" style="color: gray">Spring Boot</p>
                 </div>
 
             </div>
 
 
-            <div class="box">
+            <div class="skills-card">
 
-                <img src="https://www.bing.com/th?id=OIP.tv49Gr7dCItRCOGu41_pUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+                <img  class="skills-card-img" src="https://www.bing.com/th?id=OIP.tv49Gr7dCItRCOGu41_pUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
                     alt="">
 
 
                 <div class="text">
-                    <p style="color: gray">MySQL</p>
-                </div>
+                    <p class="skills-card-name" style="color: gray">MySQL</p>
+                </div> 
 
             </div>
 
 
-            <div class="box">
+            <div class="skills-card">
 
-                <img src="https://th.bing.com/th?q=AWS+Cloud+Symbol&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+                <img  class="skills-card-img" src="https://th.bing.com/th?q=AWS+Cloud+Symbol&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
                     alt="">
 
                 <div class="text">
-                    <p style="color: gray">AWS</p>
+                    <p class="skills-card-name" style="color: gray">AWS</p>
                 </div>
 
             </div>
@@ -269,73 +277,74 @@
         white; text-align:center;font-size: 45px;"> My Projects</h1>
 
         <div class="rows">
-            <div class="col1">
+            <div  class="project-card">
 
                 <div class="propic">
                     <img src="project1.jpeg" alt="">
                 </div>
 
-                <h3 style="color: 
+                <h3 class="project-title" style="color: 
                black ; margin-top: 10px;">MeanBuy - Online shoping website.</h3>
                 <h2 style=" margin-top: 15px;margin-bottom: 15px; color:black;">MeanBuy clone</h2>
-                <h4 style="margin-bottom: 15px;color: black;">meanbuy is ecommerce website where you can buy the various
+                <h4 class="project-description" style="margin-bottom: 15px;color: black;">meanbuy is ecommerce website where you can buy the various
                     categories . </h4>
-                <p style="color:black;"><span style="color: black;">Tech-Stack : </span> HTML | CSS | JAVASCRIPT</p>
+                <p class="project-tech-stack" style="color:black;"><span style="color: black;">Tech-Stack : </span> HTML | CSS | JAVASCRIPT</p>
 
                 <div class="innerbox">
 
-                    <a href="https://github.com/282Manoj/Meanbuy.com2"><button>Source Code</button></a>
-                    <a href="https://statuesque-scone-dca5f4.netlify.app/nav+home.html"><button>Deployed
+                    <a  target="_blank" class="project-github-link" href="https://github.com/282Manoj/Meanbuy.com2"><button>Source Code</button></a>
+                    <a  target="_blank" class="project-deployed-link" href="https://statuesque-scone-dca5f4.netlify.app/nav+home.html"><button>Deployed
                             Link</button></a>
 
 
                 </div>
 
             </div>
-            <div class="col1">
+            <div class="project-card">
 
                 <div class="propic">
                     <img src="project2.jpeg" alt="">
                 </div>
 
-                <h3 style="color: 
+                <h3 class="project-title" style="color: 
                 black ; margin-top: 10px;">deccanherald - Online news website.</h3>
                 <h2 style=" margin-top: 15px;margin-bottom: 15px; color: black;">deccanherald clone</h2>
-                <h4 style="margin-bottom: 15px;color: black;">Deccan Herald is an Indian English language daily
+                <h4 class="project-description" style="margin-bottom: 15px;color: black;">Deccan Herald is an Indian English language daily
                     newspaper published from The Indian State of karnataka. </h4>
-                <p style="color: black;"><span style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> HTML | CSS
+                <p class="project-tech-stack" style="color: black;"><span style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> HTML | CSS
                     | JAVASCRIPT</p>
 
                 <div class="innerbox">
 
-                    <a href="https://github.com/kPrince114/handsomely-clam-5290"><button>Source Code</button></a>
-                    <a href="https://calm-sfogliatella-19cc64.netlify.app/"><button>Deployed Link</button></a>
+                    <a  target="_blank"  class="project-github-link" href="https://github.com/kPrince114/handsomely-clam-5290"><button>Source Code</button></a>
+                    <a  target="_blank" class="project-deployed-link" href="https://calm-sfogliatella-19cc64.netlify.app/"><button>Deployed Link</button></a>
 
 
                 </div>
 
             </div>
 
-            <div class="col1">
+            <div class="project-card">
 
                 <div class="propic">
                     <img src="https://www.guru99.com/images/1/091318_0717_WhatisBacke1.png" alt="">
                 </div>
 
-                <h3 style="color: 
+                <h3 class="project-title" style="color: 
                 black;margin-top: 10px;">Backend - Online Hardware And softWare.</h3>
                 <h2 style="margin-top: 15px;margin-bottom: 15px;color: black;"></h2>
 
-                <h4 style="margin-bottom: 15px; color: black;">it is Online hardware and softWare Website.by Using you
+                <h4 class="project-description" style="margin-bottom: 15px; color: black;">it is Online hardware and softWare Website.by Using you
                     can complaine and resolve your problem.</h4>
-                <p style="color: black;"><span style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> JAVA | SQL
+                <p  style="color: black;"><span style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> JAVA | SQL
+                <p class="project-tech-stack"  style="color: black;"><span style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> JAVA | SQL
                     | JDBC</p>
 
                 <div class="innerbox">
 
-                    <a href="https://github.com/kPrince114/-industrious-horn-2366"><button>Source
+                    <a  target="_blank"  class="project-github-link" href="https://github.com/kPrince114/-industrious-horn-2366"><button>Source
                             Code</button></a>
-                    <a href="https://drive.google.com/file/d/18YUxwqR70aODIcJ-QLInSn6kJJ1j1s_J/view"><button> Drive Link
+                    <a  target="_blank" class="project-deployed-link" href="https://drive.google.com/file/d/18YUxwqR70aODIcJ-QLInSn6kJJ1j1s_J/view"><button> Drive Link
                         </button></a>
 
                 </div>
@@ -455,21 +464,21 @@
 
 
     </div>
-    <div id="down">
+    <div id="contact" >
         <div class="">
             <div style="background-color: black;" class="row">
                 <div class="contact-left">
                     <h1 style="color: white;" class="sub-title;">contact Me</h1>
                     <p style="color: white;"><i class="fa-solid fa-envelope"></i> princep7277789921@gmail.com</p>
-                    <p style="color: white;"><i class="fa-sharp fa-solid fa-phone"></i> 9835994953</p>
+                    <p id="contact-phone" style="color: white;"><i class="fa-sharp fa-solid fa-phone"></i> 9835994953</p>
                     <div style="margin-top: 40px;" class="socal-icon">
-                        <a href="https://www.linkedin.com/in/kprince114/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/kPrince114"> <i class="fa-brands fa-square-github"></i></a>
+                        <a  target="_blank" id="contact-linkedin" href="https://www.linkedin.com/in/kprince114/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a  target="_blank" id="contact-github" href="https://github.com/kPrince114"> <i class="fa-brands fa-square-github"></i></a>
                         <!-- <i class="fa-brands fa-square-github"></i> -->
-                        <a href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing"><i
+                        <a  target="_blank" id="contact-linkedin" href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing"><i
                                 class="fa-solid fa-user"></i></a>
 
-                        <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                        <a target="_blank" id="contact-email" href=""><i class="fa-solid fa-envelope"></i></a>
                     </div>
                     <!-- <a href="img/resume.pdf" download class="btn btn2">Download profile</a> -->
                 </div>

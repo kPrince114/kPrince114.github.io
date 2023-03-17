@@ -267,7 +267,7 @@ footer {
   color: white;
 }
 
-.button-resume {
+/* .nav-link {
   color: black;
   background-color: white;
   border-radius: 10px;
@@ -278,7 +278,7 @@ footer {
   font-weight: bold;
   font-size: 20px;
 
-}
+} */
 
 .button-resume a {
   color: black;
@@ -317,7 +317,7 @@ footer {
 
 }
 
-.container .box>img {
+.container .skills-card>img {
   width: 50%;
   margin: auto;
   display: block;
@@ -328,7 +328,7 @@ footer {
 
 }
 
-.container .box {
+.container .skills-card {
 
   box-sizing: border-box;
   margin: 5px 0;
@@ -343,12 +343,12 @@ footer {
 
 }
 
-.container .box:hover {
+.container .skills-card:hover {
   transform: translateY(5px);
   box-shadow: inset 0px 10px 20px 2px white;
 }
 
-.box>div {
+.skills-card>div {
 
 
   margin-top: 3px;
@@ -369,7 +369,7 @@ footer {
 
 }
 
-.box .text {
+.skills-card .text {
 
   padding: 5%;
 }
@@ -382,7 +382,7 @@ footer {
 
 
 }
-.row .about-col-1 img {
+.row .home-img img {
 
   width: 80%;
   /* border: 0.6px solid rgba(231, 248, 82, 0.7); */
@@ -626,7 +626,7 @@ footer {
 
 }
 
-.rows .col1 {
+.rows .project-card {
   border: 1px solid black;
   flex-basis: 30%;
   margin: auto;
@@ -639,7 +639,7 @@ footer {
   box-sizing: border-box;
 }
 
-.rows .col1:hover{
+.rows .project-card:hover{
   
     transform: translateY(5px); 
      box-shadow: inset 0px 10px 20px 2px black;  
@@ -1002,7 +1002,7 @@ form .btn2 {
 
   }
 
-  .rows .col1 {
+  .rows .project-card {
     width: 80%;
     margin: auto;
     border: 2px solid none;
@@ -1184,7 +1184,7 @@ form .btn2 {
 
   }
 
-  .rows .col1 {
+  .rows .project-card {
 
     width: 88%;
     margin: auto;
@@ -1206,11 +1206,6 @@ form .btn2 {
     width: 80%;
     margin: auto;
     display: block;
-
-  }
-
-  .contact-left>h1 {
-    /* margin-top: -30px; */
 
   }
 
@@ -1251,7 +1246,34 @@ form .btn2 {
 }
 
 
+/* 
+ */
 
-
-
-
+ #resume-button-2{
+  margin-top: 10px;
+  /* background-color: white; */
+  color: black;
+  /* margin-left: 10%; */
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+ }
+ #resume-button-2>a{
+  color: black;
+ }
+ #resume-button-2>i{
+font-size: 120%;
+ }
+#resume-button-1{
+  background-color: black;
+  color: black;
+  /* margin-left: 10%; */
+  padding: 5px 10px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+#resume-button-1>a{
+  color: white;
+}
