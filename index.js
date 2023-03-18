@@ -76,7 +76,11 @@ form.addEventListener('submit', e => {
 
 })
 function goresume(){
-    window.location.href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing"
+    window.location.replace("https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing")
+    
 }
 
+document.querySelector("#resume-button-2").addEventListener("click", () => {
+    window.open("resume.pdf", "_blank");
+  })
 

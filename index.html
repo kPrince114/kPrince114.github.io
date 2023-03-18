@@ -31,7 +31,7 @@
                     <a href="#about" class="nav-link about">About </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skill" class="nav-link skills">Skills</a>
+                    <a href="#skills" class="nav-link skills">Skills</a>
                 </li>
                 <li class="nav-item">
                     <a href="#projects" class="nav-link projects">Projects</a>
@@ -42,7 +42,8 @@
                 <!-- <li class="nav-item">
                     <a target="_blank" id="resume-link-1" href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing" class="nav-link" download>GORESUME</a>
                 </li> -->
-                 <button id="resume-button-1"><a id="resume-link-1" target="_blank" href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing" >GORESUME</a></button> 
+                <button class="nav-link resume" id="resume-button-1"><a id="resume-link-1" target="_blank"
+                        href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing" download>GORESUME</a></button>
                 <!-- <a href="resume.pdf" download class="btn btn2">Download profile</a> -->
             </ul>
             <div class="hamburger">
@@ -56,17 +57,16 @@
 
     <!-- Introduction -->
 
-    <div class="bg-container">
+    <div class="Home">
         <div class="col-12 details-section">
             <h1 class="para1"> Hello Wrold</h1>
-            <h1 class="para2"> Prince <span class="in-span"> Kumar</span></h1>
+            <h1 id="user-detail-name" class="para2"> Prince <span class="in-span"> Kumar</span></h1>
             <h1 class="para1"> I'm a Backend Developer</h1>
             <button id="resume-button-2">
-                <a id="resume-link-2" href="resume.pdf" download>Resume <i  class="fa-solid fa-download"></i></a>
+                <a target="_blank" id="resume-link-2" href="" download="resume.pdf" >Resume <i class="fa-solid fa-download"></i></a>
             </button>
-           
         </div>
-        
+
     </div>
 
 
@@ -80,19 +80,21 @@
 
 
             <div class="home-img">
-                <img src="./prince.jpg" alt="">
+                <img class="home-img" src="./professional.jpg" alt="">
             </div>
 
 
             <div class="about-col-2">
                 <h1 style="color: white; font-size: 30px;" class="sub-title">About Me</h1>
-                <p id="user-detail-intro" class="description" style="color:white">Hey there, I’m Prince Kumar, a Full stack web Developer.
+                <h4 id="user-detail-name" style="margin-bottom: 6px; font-family: serif ;">Hello Wrold , I’m Prince Kumar </h4>
+                <p id="user-detail-intro" class="description" style="color:white;">Hey  I am a Full
+                    stack web Developer.
                     Recently completed intermediate in 2021. Currently I enrolled in Full Stack Web Development
                     Program At Masai School. I’m Hard Working , Problem Solving , Eager to Learn
                     new things kind off guy. I have been always curious about how software helping to make human life
                     convenient. And That’s motivate me to explore about
                     software , how it programmed, how it works e.g. . And I’m really enjoying
-                    learning this skills </p>
+                    learning this skills. i am learning Spring Boot, Hibernate, sql etc.</p>
 
                 <div class="tab-titles">
 
@@ -110,7 +112,7 @@
 
                 </div>
 
-                <div class="tab-contents active-tab" style="color: white;" id="skills">
+                <div class="tab-contents active-tab" style="color: white; margin-top: -40px;" id="skills">
                     <ul>
                         <li><span> Team Work</span>
                         </li>
@@ -124,8 +126,10 @@
 
                 <div style="color: white;" class="tab-contents" id="education">
                     <ul>
-                        <li><span style="color: green;">feb - 2022 to Nov - 2022</span> <br> Back-End web development from MASAI </li>
-                        <li><span style="color: green;">2019 - 2021 </span> <br> Intermediate from collage of commarce art's and science </li>
+                        <li><span style="color: green;">feb - 2022 to Nov - 2022</span> <br> Back-End web development
+                            from MASAI </li>
+                        <li><span style="color: green;">2019 - 2021 </span> <br> Intermediate from collage of commarce
+                            art's and science </li>
 
                     </ul>
                 </div>
@@ -148,7 +152,7 @@
 
     <!-- -------------------------------------skills-------------------------------------- -->
 
-    <div id="skill" style="background-color: black">
+    <div id="skills" style="background-color: black">
 
         <h1 style="color: 
   white ; text-align: center; font-size: 45px;">Skills</h1>
@@ -156,13 +160,14 @@
         <h1 style="color: 
     white ; " class="tool" style="color: #01021d; font-family:Arial, sans-serif;">Languages and Tools </h1>
 
-        <div class="container">
+        <div id="skills" class="container">
 
 
 
             <div class="skills-card">
 
-                <img  class="skills-card-img" src="https://arjun-porfolio.vercel.app/assets/images/flaticon/html-5.png" alt="">
+                <img class="skills-card-img" src="https://arjun-porfolio.vercel.app/assets/images/flaticon/html-5.png"
+                    alt="">
 
                 <div class="text"> <!------------352--------------->
                     <p class="skills-card-name" style="color: gray">HTML</p>
@@ -172,7 +177,8 @@
 
             <div class="skills-card">
 
-                <img  class="skills-card-img" src="https://arjun-porfolio.vercel.app/assets/images/flaticon/css-3.png" alt="">
+                <img class="skills-card-img" src="https://arjun-porfolio.vercel.app/assets/images/flaticon/css-3.png"
+                    alt="">
 
                 <div class="text">
                     <p class="skills-card-name" style="color: gray">CSS</p>
@@ -183,7 +189,8 @@
 
             <div class="skills-card">
 
-                <img  class="skills-card-img" src="https://arjun-porfolio.vercel.app/assets/images/flaticon/js.png" alt="">
+                <img class="skills-card-img" src="https://arjun-porfolio.vercel.app/assets/images/flaticon/js.png"
+                    alt="">
 
                 <div class="text">
                     <p class="skills-card-name" style="color: gray">Java Script</p>
@@ -195,7 +202,8 @@
 
             <div class="skills-card">
 
-                <img  class="skills-card-img" src="https://th.bing.com/th/id/OIP.VZYJGn2VK2FBE0t2tLvvrwHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                <img class="skills-card-img"
+                    src="https://th.bing.com/th/id/OIP.VZYJGn2VK2FBE0t2tLvvrwHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                     alt="">
 
                 <div class="text">
@@ -208,7 +216,8 @@
 
             <div class="skills-card">
 
-                <img  class="skills-card-img" src="https://th.bing.com/th/id/OIP.YCdY8pRfjdOIUcBvccLpCgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                <img class="skills-card-img"
+                    src="https://th.bing.com/th/id/OIP.YCdY8pRfjdOIUcBvccLpCgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                     alt="">
 
                 <div class="text">
@@ -220,7 +229,8 @@
 
             <div class="skills-card">
 
-                <img  class="skills-card-img" src="https://th.bing.com/th/id/OIP.s3twEa94SdRplbZY7lUWsgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                <img class="skills-card-img"
+                    src="https://th.bing.com/th/id/OIP.s3twEa94SdRplbZY7lUWsgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                     alt="">
 
                 <div class="text">
@@ -232,20 +242,22 @@
 
             <div class="skills-card">
 
-                <img  class="skills-card-img" src="https://www.bing.com/th?id=OIP.tv49Gr7dCItRCOGu41_pUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+                <img class="skills-card-img"
+                    src="https://www.bing.com/th?id=OIP.tv49Gr7dCItRCOGu41_pUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
                     alt="">
 
 
                 <div class="text">
                     <p class="skills-card-name" style="color: gray">MySQL</p>
-                </div> 
+                </div>
 
             </div>
 
 
             <div class="skills-card">
 
-                <img  class="skills-card-img" src="https://th.bing.com/th?q=AWS+Cloud+Symbol&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+                <img class="skills-card-img"
+                    src="https://th.bing.com/th?q=AWS+Cloud+Symbol&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
                     alt="">
 
                 <div class="text">
@@ -277,7 +289,7 @@
         white; text-align:center;font-size: 45px;"> My Projects</h1>
 
         <div class="rows">
-            <div  class="project-card">
+            <div class="project-card">
 
                 <div class="propic">
                     <img src="project1.jpeg" alt="">
@@ -286,14 +298,18 @@
                 <h3 class="project-title" style="color: 
                black ; margin-top: 10px;">MeanBuy - Online shoping website.</h3>
                 <h2 style=" margin-top: 15px;margin-bottom: 15px; color:black;">MeanBuy clone</h2>
-                <h4 class="project-description" style="margin-bottom: 15px;color: black;">meanbuy is ecommerce website where you can buy the various
+                <h4 class="project-description" style="margin-bottom: 15px;color: black;">meanbuy is ecommerce website
+                    where you can buy the various
                     categories . </h4>
-                <p class="project-tech-stack" style="color:black;"><span style="color: black;">Tech-Stack : </span> HTML | CSS | JAVASCRIPT</p>
+                <p class="project-tech-stack" style="color:black;"><span style="color: black;">Tech-Stack : </span> HTML
+                    | CSS | JAVASCRIPT</p>
 
                 <div class="innerbox">
 
-                    <a  target="_blank" class="project-github-link" href="https://github.com/282Manoj/Meanbuy.com2"><button>Source Code</button></a>
-                    <a  target="_blank" class="project-deployed-link" href="https://statuesque-scone-dca5f4.netlify.app/nav+home.html"><button>Deployed
+                    <a target="_blank" class="project-github-link"
+                        href="https://github.com/282Manoj/Meanbuy.com2"><button>Source Code</button></a>
+                    <a target="_blank" class="project-deployed-link"
+                        href="https://statuesque-scone-dca5f4.netlify.app/nav+home.html"><button>Deployed
                             Link</button></a>
 
 
@@ -309,15 +325,19 @@
                 <h3 class="project-title" style="color: 
                 black ; margin-top: 10px;">deccanherald - Online news website.</h3>
                 <h2 style=" margin-top: 15px;margin-bottom: 15px; color: black;">deccanherald clone</h2>
-                <h4 class="project-description" style="margin-bottom: 15px;color: black;">Deccan Herald is an Indian English language daily
+                <h4 class="project-description" style="margin-bottom: 15px;color: black;">Deccan Herald is an Indian
+                    English language daily
                     newspaper published from The Indian State of karnataka. </h4>
-                <p class="project-tech-stack" style="color: black;"><span style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> HTML | CSS
+                <p class="project-tech-stack" style="color: black;"><span
+                        style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> HTML | CSS
                     | JAVASCRIPT</p>
 
                 <div class="innerbox">
 
-                    <a  target="_blank"  class="project-github-link" href="https://github.com/kPrince114/handsomely-clam-5290"><button>Source Code</button></a>
-                    <a  target="_blank" class="project-deployed-link" href="https://calm-sfogliatella-19cc64.netlify.app/"><button>Deployed Link</button></a>
+                    <a target="_blank" class="project-github-link"
+                        href="https://github.com/kPrince114/handsomely-clam-5290"><button>Source Code</button></a>
+                    <a target="_blank" class="project-deployed-link"
+                        href="https://calm-sfogliatella-19cc64.netlify.app/"><button>Deployed Link</button></a>
 
 
                 </div>
@@ -334,17 +354,22 @@
                 black;margin-top: 10px;">Backend - Online Hardware And softWare.</h3>
                 <h2 style="margin-top: 15px;margin-bottom: 15px;color: black;"></h2>
 
-                <h4 class="project-description" style="margin-bottom: 15px; color: black;">it is Online hardware and softWare Website.by Using you
+                <h4 class="project-description" style="margin-bottom: 15px; color: black;">it is Online hardware and
+                    softWare Website.by Using you
                     can complaine and resolve your problem.</h4>
-                <p  style="color: black;"><span style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> JAVA | SQL
-                <p class="project-tech-stack"  style="color: black;"><span style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> JAVA | SQL
+                <p style="color: black;"><span style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> JAVA | SQL
+                <p class="project-tech-stack" style="color: black;"><span
+                        style="color: white(231, 248, 82, 0.7);">Tech-Stack : </span> JAVA | SQL
                     | JDBC</p>
 
                 <div class="innerbox">
 
-                    <a  target="_blank"  class="project-github-link" href="https://github.com/kPrince114/-industrious-horn-2366"><button>Source
+                    <a target="_blank" class="project-github-link"
+                        href="https://github.com/kPrince114/-industrious-horn-2366"><button>Source
                             Code</button></a>
-                    <a  target="_blank" class="project-deployed-link" href="https://drive.google.com/file/d/18YUxwqR70aODIcJ-QLInSn6kJJ1j1s_J/view"><button> Drive Link
+                    <a target="_blank" class="project-deployed-link"
+                        href="https://drive.google.com/file/d/18YUxwqR70aODIcJ-QLInSn6kJJ1j1s_J/view"><button> Drive
+                            Link
                         </button></a>
 
                 </div>
@@ -372,18 +397,24 @@
 
             </div>
         </div>
-        <div class="cal-con" style="color: black;">
+        <div  class=".react-activity-calendar" style="color: black;">
             <div class="calendar">
                 Loading the data just for you.
             </div>
         </div>
-        <div class="stats">
-            <img src="https://github-readme-stats.vercel.app/api?username=kPrince114&show_icons=true&locale=en"
+        <div  class="stats">
+            <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=kPrince114&show_icons=true&locale=en"
                 alt="kPrince114" />
         </div>
-        <div class="stats">
-            <img src="https://camo.githubusercontent.com/fd109d4dedbe507446beccf3e0a0233ae66f19b12b4ab0346317288b6ae93754/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d6b7072696e636531313426"
+        <div  class="stats">
+            <img id="github-streak-stats" src="https://camo.githubusercontent.com/fd109d4dedbe507446beccf3e0a0233ae66f19b12b4ab0346317288b6ae93754/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d6b7072696e636531313426"
                 alt="kPrince114" />
+        </div>
+        <div   class="stats">
+            <a href="https://github.com/kPrince114/github-readme-stats">
+                <img id="github-top-langs" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kPrince114"
+                  id="github-top-langs" />
+              </a> 
         </div>
 
     </div>
@@ -464,18 +495,22 @@
 
 
     </div>
-    <div id="contact" >
+    <div id="contact">
         <div class="">
             <div style="background-color: black;" class="row">
                 <div class="contact-left">
                     <h1 style="color: white;" class="sub-title;">contact Me</h1>
                     <p style="color: white;"><i class="fa-solid fa-envelope"></i> princep7277789921@gmail.com</p>
-                    <p id="contact-phone" style="color: white;"><i class="fa-sharp fa-solid fa-phone"></i> 9835994953</p>
+                    <p id="contact-phone" style="color: white;"><i class="fa-sharp fa-solid fa-phone"></i> 9835994953
+                    </p>
                     <div style="margin-top: 40px;" class="socal-icon">
-                        <a  target="_blank" id="contact-linkedin" href="https://www.linkedin.com/in/kprince114/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a  target="_blank" id="contact-github" href="https://github.com/kPrince114"> <i class="fa-brands fa-square-github"></i></a>
+                        <a target="_blank" id="contact-linkedin" href="https://www.linkedin.com/in/kprince114/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" id="contact-github" href="https://github.com/kPrince114"> <i
+                                class="fa-brands fa-square-github"></i></a>
                         <!-- <i class="fa-brands fa-square-github"></i> -->
-                        <a  target="_blank" id="contact-linkedin" href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing"><i
+                        <a target="_blank" id="contact-linkedin"
+                            href="https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing"><i
                                 class="fa-solid fa-user"></i></a>
 
                         <a target="_blank" id="contact-email" href=""><i class="fa-solid fa-envelope"></i></a>
