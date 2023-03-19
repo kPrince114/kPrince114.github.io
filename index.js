@@ -28,7 +28,7 @@ const hiddenElement = document.querySelectorAll(".hidden");
 hiddenElement.forEach((element) => observer.observe(element));
 
 // enable responsive functionality
-GitHubCalendar(".calendar", "kPrince114", { responsive: true });
+GitHubCalendar(".react-activity-calendar", "kPrince114", { responsive: true });
 
 
 
@@ -83,7 +83,7 @@ function goresume(){
 document.querySelector("#resume-button-2").addEventListener("click", () => {
     window.open("resume.pdf", "_blank");
   })
-  
+
 
   document.querySelector("#resume-button-1").addEventListener("click", () => {
     window.open("resume.pdf", "_blank");

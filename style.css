@@ -128,7 +128,7 @@ a {
 
 }
 
-.calendar {
+.react-activity-calendar {
   width: 90%;
   border: none;
 }
@@ -209,7 +209,7 @@ footer {
   }
 
 
-  .calendar svg {
+  .react-activity-calendar svg {
     max-width: 100%;
   }
 
@@ -218,7 +218,7 @@ footer {
 @media (max-width: 481px) {
 
 
-  .calendar svg {
+  .calereact-activity-calendarndar svg {
     max-width: 100%;
   }
 
