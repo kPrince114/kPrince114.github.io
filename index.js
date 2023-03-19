@@ -83,4 +83,8 @@ function goresume(){
 document.querySelector("#resume-button-2").addEventListener("click", () => {
     window.open("resume.pdf", "_blank");
   })
+  
 
+  document.querySelector("#resume-button-1").addEventListener("click", () => {
+    window.open("resume.pdf", "_blank");
+  })
