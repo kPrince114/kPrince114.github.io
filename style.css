@@ -9,9 +9,10 @@ body {
   font-family: Sora, sans-serif;
   background-color: black;
 }
+
 * {
   scrollbar-width: auto;
-  scrollbar-color:  rgb(34, 167, 21);
+  scrollbar-color: rgb(34, 167, 21);
 }
 
 *::-webkit-scrollbar {
@@ -231,6 +232,7 @@ footer {
     margin-left: 0;
   }
 }
+
 /* my css thing */
 .Home {
   margin-top: -100px;
@@ -255,7 +257,7 @@ footer {
 }
 
 .para2 {
-  
+
   color: #ff004f;
   font-weight: bold;
   font-size: 60px;
@@ -382,6 +384,7 @@ footer {
 
 
 }
+
 .row .photo img {
 
   width: 80%;
@@ -402,7 +405,8 @@ footer {
   justify-content: space-between;
 
 }
-.rombus{
+
+.rombus {
   margin-top: 60px;
   margin-left: 50px;
   left: 20px;
@@ -413,7 +417,8 @@ footer {
   -webkit-transform: rotate(45deg);
   border: 1px solid black;
 }
-.rombus>img{
+
+.rombus>img {
   width: 100%;
   height: 100%;
   /* background-color: black; */
@@ -425,7 +430,7 @@ footer {
 
 
 .sub-title {
-  
+
   margin-right: 68%;
   font-size: 40px;
   margin-bottom: 20px;
@@ -533,10 +538,10 @@ footer {
 
 .social-icons>div {
 
-  border: 2px solid ;
+  border: 2px solid;
   padding: 10px;
   border-radius: 3px;
- 
+
   width: 20%;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -619,8 +624,13 @@ footer {
 
 
 .rows {
-  display: flex;
-  padding: 30px;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(50%);
+  gap: 30px 50px;
+  /* padding: 30px; */
   box-sizing: border-box;
   color: balck;
 
@@ -634,18 +644,18 @@ footer {
   padding: 25px;
   background-color: white;
   transform: translateY(5px);
-  box-shadow: inset 0px 10px 20px 2px white ;
+  box-shadow: inset 0px 10px 20px 2px white;
   border-radius: 12px;
   box-sizing: border-box;
 }
 
-.rows .project-card:hover{
-  
-    transform: translateY(5px); 
-     box-shadow: inset 0px 10px 20px 2px black;  
-  
-  
-  }
+.rows .project-card:hover {
+
+  transform: translateY(5px);
+  box-shadow: inset 0px 10px 20px 2px black;
+
+
+}
 
 .propic {
 
@@ -686,7 +696,7 @@ footer {
   padding: 10px;
   font-size: 17px;
   /* background-color: black; */
-  
+
   border-radius: 10px;
   font-weight: bold;
   color: black;
@@ -764,12 +774,12 @@ footer {
 #extra {
   color: black;
   font-size: 16px;
- 
+
 }
 
 #extra:hover {
   border: 2px solid white;
-  background:black;
+  background: black;
   color: white;
 }
 
@@ -824,7 +834,7 @@ form .btn2 {
 @media (min-width:720px) and (max-width:900px) {
 
 
-  .one{
+  .one {
     background-color: balck;
   }
 
@@ -851,6 +861,7 @@ form .btn2 {
 
 
   }
+
   .contact-left,
   .contact-right {
     flex-basis: 100%;
@@ -876,11 +887,14 @@ form .btn2 {
     font-size: 14px;
 
   }
-  .btn btn2{
+
+  .btn btn2 {
     margin-top: -50px;
   }
-  .rows{
-    margin-left: -40px;
+
+  .rows {
+    margin: auto;
+    /* margin-left: -40px; */
   }
 
 
@@ -890,7 +904,7 @@ form .btn2 {
 @media (min-width:480px) and (max-width:720px) {
 
 
-  
+
   .container {
 
     display: grid;
@@ -997,6 +1011,7 @@ form .btn2 {
   }
 
   .rows {
+    margin: auto;
     display: block;
     padding: 50px;
 
@@ -1015,6 +1030,7 @@ form .btn2 {
     padding: 8px;
 
   }
+
   .contact-left,
   .contact-right {
     flex-basis: 100%;
@@ -1040,7 +1056,8 @@ form .btn2 {
     font-size: 14px;
 
   }
-  .btn btn2{
+
+  .btn btn2 {
     margin-top: -50px;
   }
 
@@ -1180,7 +1197,8 @@ form .btn2 {
 
   .rows {
     display: block;
-    padding: 20px;
+
+    /* padding: 20px; */
 
   }
 
@@ -1189,8 +1207,15 @@ form .btn2 {
     width: 88%;
     margin: auto;
     border: 2px solid none;
-    margin-bottom: 20px;
+    /* margin-bottom: 50px; */
+    height: 120%;
     padding: 16px;
+  }
+
+  .project-card .innerbox a button {
+    width: 105%;
+    height: 50px;
+
   }
 
   .innerbox {
@@ -1234,7 +1259,8 @@ form .btn2 {
     font-size: 14px;
 
   }
-  .btn btn2{
+
+  .btn btn2 {
     margin-top: -50px;
   }
 }
@@ -1249,7 +1275,7 @@ form .btn2 {
 /* 
  */
 
- #resume-button-2{
+#resume-button-2 {
   margin-top: 10px;
   /* background-color: white; */
   color: black;
@@ -1258,14 +1284,17 @@ form .btn2 {
   font-size: 20px;
   border-radius: 15px;
   border: 1px solid black;
- }
- #resume-button-2>a{
+}
+
+#resume-button-2>a {
   color: black;
- }
- #resume-button-2>i{
-font-size: 120%;
- }
-#resume-button-1{
+}
+
+#resume-button-2>i {
+  font-size: 120%;
+}
+
+#resume-button-1 {
   background-color: black;
   color: black;
   /* margin-left: 10%; */
@@ -1274,6 +1303,7 @@ font-size: 120%;
   border-radius: 10px;
   border: 1px solid black;
 }
-#resume-button-1>a{
+
+#resume-button-1>a {
   color: white;
 }
