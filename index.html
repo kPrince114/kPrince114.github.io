@@ -40,8 +40,8 @@
                     <a href="#contact" class="nav-link contact">Contact</a>
                 </li>
                 <button class="nav-link resume" id="resume-button-1">
-                    <a onclick="window.open('https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing')"
-                    target="_blank" id="resume-link-1" href="./prince_resume_pdf.pdf" download>RESUME</a>
+                    <a onclick="window.open('https://drive.google.com/file/d/10kAds-obNRhVZZ0YvzmapHRBkVdyIbVj/view?usp=sharing')"
+                    target="_blank" id="resume-link-1" href="./Prince_kumar_resume.pdf" download>RESUME</a>
                 </button>
             </ul>
             <div class="hamburger">
@@ -60,11 +60,22 @@
             <h1 class="para1"> Hello Wrold</h1>
             <h1 class="para2"> Prince <span class="in-span"> Kumar</span></h1>
             <h1 class="para1"> I'm a Backend Developer</h1>
-            <button id="resume-button-2" class="resume_button">
+            <!-- <button id="resume-button-2" class="resume_button">
                 <a onclick="window.open('https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing')"
                 target="_blank" id="resume-link-2" href="./prince_resume_pdf.pdf" download>RESUME<i
                         class="fa-solid fa-download"></i></a>
-            </button>
+                        //https://drive.google.com/file/d/10kAds-obNRhVZZ0YvzmapHRBkVdyIbVj/view?usp=sharing
+            </button> -->
+            <button onclick="resume()" id="resume-button-2" >
+                  <a id="resume-link-2" style="margin-top:0px" href="./Prince_kumar_resume.pdf" target="_blank" download>
+                Resume </a>
+                </button>
+
+                <script>
+                  function resume(){
+                       window.open("Prince_kumar_resume.pdf")
+                  }
+                </script>
         </div>
         
 
