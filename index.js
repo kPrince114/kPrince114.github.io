@@ -75,8 +75,9 @@ form.addEventListener('submit', e => {
         .catch(error => console.error('Error!', error.message))
 
 })
+//https://drive.google.com/file/d/1NVhDOYYRY9VeHHfcQjahJUZ2HIyGpiIo/view?usp=sharing
 function goresume(){
-    window.location.replace("https://drive.google.com/file/d/1L-NjfOQ1W4wCRG3esT9qllhYh86RaQRb/view?usp=sharing")
+    window.location.replace("https://drive.google.com/file/d/1NVhDOYYRY9VeHHfcQjahJUZ2HIyGpiIo/view?usp=sharing")
     
 }
 
