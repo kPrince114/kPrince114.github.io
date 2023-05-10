@@ -77,7 +77,7 @@ form.addEventListener('submit', e => {
 })
 //https://drive.google.com/file/d/1NVhDOYYRY9VeHHfcQjahJUZ2HIyGpiIo/view?usp=sharing
 function goresume(){
-    window.location.replace("https://drive.google.com/file/d/1NVhDOYYRY9VeHHfcQjahJUZ2HIyGpiIo/view?usp=sharing")
+    window.location.replace("https://drive.google.com/file/d/1yi9hM7owLwmZNKP3uBJiHlD8m69f7TNd/view?usp=sharing")
     
 }
 
