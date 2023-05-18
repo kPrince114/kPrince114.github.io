@@ -1066,10 +1066,15 @@ form .btn2 {
 
 }
 
-@media (min-width:250px) and (max-width:480px) {
+@media (max-width:480px) {
+  .navbar{
+    position: sticky;
+    top: -10px;
+  }
   header{
     min-width: 103%;
     min-height: 70px;
+    
   }
   .para1{
     font-size: 40px;
