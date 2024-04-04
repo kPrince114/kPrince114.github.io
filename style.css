@@ -389,7 +389,7 @@ footer {
 
   width: 80%;
   /* border: 0.6px solid rgba(231, 248, 82, 0.7); */
-  border-radius: 50%;
+  border-radius: 0%;
   margin: auto;
   display: block;
   /* transform: translateY(3px);
